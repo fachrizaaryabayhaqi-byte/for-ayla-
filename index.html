@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for ayla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💖 My Love Mine All Mine 💖</h1>
+            <p>Dedicated to my love</p>
+        </header>
+        <section id="photos">
+            <h2>💖 My Love Mine All Mine 💖</h2>
+            <div class="gallery">
+                <img src="WhatsApp Image 2026-01-20 at 10.13.27.jpeg" alt="Foto 1" onclick="showImage(this.src)">
+                <img src="WhatsApp Image 2026-01-19 at 10.27.55.jpeg" alt="Foto 2" onclick="showImage(this.src)">
+                <img src="WhatsApp Image 2026-01-20 at 10.13.29.jpeg" alt="Foto 3" onclick="showImage(this.src)">
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" src="">
+            </div>
+        </section>
+        <section id="videos">
+            <h2></h2>
+            <video controls>
+                <source src="Mitski - My Love Mine All Mine (Official Lyric Video).mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </section>
+        <section id="music">
+            <h2>💖'Cause my love is mine, all mine
+My love mine, mine, mine
+Nothing in the world belongs to me
+But my love, mine, all mine, all mine💖</h2>
+           
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
